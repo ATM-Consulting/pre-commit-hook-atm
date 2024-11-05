@@ -3,6 +3,6 @@ repos:
     hooks:
       - id: check-array-start-with-t
         name: Check Array Start With T
-        entry: check_array_start_with_t.php
+        entry: php check_array_start_with_t.php
         language: system
         types: [php]
