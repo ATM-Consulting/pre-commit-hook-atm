@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: check-array-start-with-t
+        name: Check Array Start With T
+        entry: check_array_start_with_t.py
+        language: php
+        types: [python, yaml, json]
