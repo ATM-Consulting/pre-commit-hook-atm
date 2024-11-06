@@ -1,6 +1,7 @@
 #!/usr/bin/php
 <?php
 
+
 function checkArrayStartWithT($filePath) {
 	// Vérifier si le fichier est un fichier PHP
 	if (!preg_match('/\.php$/', $filePath)) {
